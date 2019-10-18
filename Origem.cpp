@@ -1,10 +1,8 @@
-#include <cstdlib>
-#include<string>
-#include<iostream>
+//#include<string>
+//#include<iostream>
 
-//using namespace std;
 
-#include "carro.h"
+#include "carro1.h"
 
 int main()
 {
@@ -60,6 +58,9 @@ int main()
 		cout << c6.getMarca() << endl;
 		cout << c6.getCor() << endl;
 		cout << c6.getAno() << endl;
+
+
+
 
 		return 0;
 }
