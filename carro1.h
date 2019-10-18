@@ -1,13 +1,19 @@
+#pragma once
+#include<iostream>
+#include<string>
+#include <cstdlib>
+
 #ifndef CARRO_H
 #define CARRO_H
 
-#include<string>
-//using namespace std;
+using namespace std;
 class Carro
 {
 public:
 	static int pneus;					//atributo da classe
-
+	Carro();
+	Carro(string marca, int ano);
+	~Carro();
 	void setMarca(string x);
 	string getMarca();
 	void setAno(int y);
